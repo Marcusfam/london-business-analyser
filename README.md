@@ -1,8 +1,15 @@
-# london-business-analyser
+# London-Business-Analyser
 
-Program that calculates the best areas to place down a certain business within a certain area of London
+Program that calculates the best areas to place down a certain business within a certain area of London.
+
 Data from the ONS and the Google Maps api are used to calculate the optimal location
+
 Ratio of people to number of matching institutions is outputted for each area 
+
+## Sample
+Attempt to find the best location to place a bar within 5km of east acton
+
+https://user-images.githubusercontent.com/68549890/190403307-06f405b1-e560-4b93-bbb2-d61029483061.mp4
 
 ## Usage
 Must create text file called apikey.txt with a valid api key before running program
@@ -13,17 +20,17 @@ Enter area you would like to inspect
 
 Enter a certain radius (below 3000 metres to avoid too many api calls)
 
-## :Limitations & Warnings
+## Limitations & Warnings
 Reckless use of the Google Maps api can amount to a costly bill.
+
 Multiple scans of the whole london are not recommended.
+
 Review spending on the google maps platform regularly
 
-## Sample
-Attempt to find the best location to place a bar within 5km of east acton
-https://user-images.githubusercontent.com/68549890/190403307-06f405b1-e560-4b93-bbb2-d61029483061.mp4
 
 ## Future developments
-Program will be modified to filter population densities based on **multiple** data points such as religion and age which are already included in the LONDON_WARD_DETAIL.xls file
+Program will be modified to filter population densities based on **multiple** data points such as religion and age which are already included in the LONDON_WARD_DETAIL.xls file.
+
 In other words, only populations who fit a certain criteria will be considered when comparing the number of people to macthing institutions for each area
 
 ## Contributing
