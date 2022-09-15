@@ -1,6 +1,6 @@
 # London-Business-Analyser
 
-Program that calculates the best areas to place down a certain business within a certain area of London.
+Program that calculates the best locations to place down a certain business
 
 Data from the ONS and the Google Maps api are used to calculate the optimal location
 
