@@ -1,10 +1,10 @@
 # London-Business-Analyser
 
-Program that calculates the best locations to place down a certain business
+Program that predicts demand for types of business.
 
-Data from the ONS and the Google Maps api are used to calculate the optimal location
+Data from the ONS and the Google Maps API are used to calculate the optimal location for different retail insitutions
 
-Ratio of people to number of matching institutions is outputted for each area 
+Ratio of population density to the number of matching institutions is outputted for each area to find areas with most demand
 
 ## Sample
 Attempt to find the best location to place a bar within 5km of east acton
